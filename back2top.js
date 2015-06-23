@@ -79,7 +79,7 @@ var Back2top = (function($,undefined){
 
 if ( typeof dwfis.define === 'function') {
     // AMD. Register as an anonymous module.
-    module.exports = WebpageZoomDetect;
+    module.exports = back2top;
 } else {
-    window.WebpageZoomDetect = WebpageZoomDetect;
+    window.back2top = back2top;
 }
