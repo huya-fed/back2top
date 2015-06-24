@@ -12,7 +12,7 @@
 	在sass文件中引用样式
 	@import "components/back2top/back2top.css";
 
-	var WebpageZoomDetect = require('back2top');
+	var Back2top = require('back2top');
 
 ##api方法
 
