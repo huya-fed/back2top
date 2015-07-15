@@ -77,7 +77,7 @@ var Back2top = (function($,undefined){
 
 })(jQuery);
 
-if ( typeof dwfis.define === 'function') {
+if ( typeof dwfis !== "undefined" && typeof dwfis.define === "function") {
     // AMD. Register as an anonymous module.
     module.exports = back2top;
 } else {
